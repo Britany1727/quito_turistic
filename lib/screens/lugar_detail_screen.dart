@@ -183,7 +183,7 @@ class LugarDetailScreen extends StatelessWidget {
                   const SizedBox(height: 14),
                   _InfoTile(
                     icon: Icons.phone_rounded,
-                    iconColor: const Color(0xFF43A047),
+                    iconColor: const Color(0xFF003366),
                     title: 'Teléfono',
                     subtitle: lugar.telefono,
                     onTap: () => _call(context),
@@ -227,7 +227,7 @@ class LugarDetailScreen extends StatelessWidget {
                         style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                       ),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF43A047),
+                        backgroundColor: const Color(0xFF003366),
                         foregroundColor: Colors.white,
                         elevation: 0,
                         padding: const EdgeInsets.symmetric(vertical: 16),
@@ -246,8 +246,8 @@ class LugarDetailScreen extends StatelessWidget {
                         style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
                       ),
                       style: OutlinedButton.styleFrom(
-                        foregroundColor: const Color(0xFF1E88E5),
-                        side: const BorderSide(color: Color(0xFF1E88E5)),
+                        foregroundColor: const Color(0xFF003366),
+                        side: const BorderSide(color: Color(0xFF003366)),
                         padding: const EdgeInsets.symmetric(vertical: 14),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                       ),
@@ -301,14 +301,14 @@ class _QuickActionsRow extends StatelessWidget {
           ),
           Container(width: 1, height: 40, color: Colors.grey[200]),
           _QuickAction(
-            color: const Color(0xFF43A047),
+            color: const Color(0xFF0055A5),
             icon: Icons.near_me_rounded,
             label: 'Ruta',
             onTap: onRoute,
           ),
           Container(width: 1, height: 40, color: Colors.grey[200]),
           _QuickAction(
-            color: const Color(0xFF1E88E5),
+            color: const Color(0xFF003366),
             icon: Icons.share_rounded,
             label: 'Compartir',
             onTap: onShare,

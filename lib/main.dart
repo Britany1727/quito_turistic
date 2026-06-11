@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Quito Turístico',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF7C4DFF),
+          seedColor: const Color(0xFF003366),
           brightness: Brightness.light,
         ),
         useMaterial3: true,
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
           scrolledUnderElevation: 3,
         ),
-        scaffoldBackgroundColor: const Color(0xFFF5F3FF),
+        scaffoldBackgroundColor: const Color(0xFFF5F5F5),
       ),
       home: const HomeScreen(),
     );

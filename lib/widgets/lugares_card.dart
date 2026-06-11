@@ -147,11 +147,14 @@ class _LugaresCardState extends State<LugaresCard> {
                   const SizedBox(height: 14),
                   Row(
                     children: [
-                      Expanded(child: _ActionButton(color: colorScheme.primary, icon: Icons.call_rounded, label: 'Llamar', onTap: _call)),
+                      Expanded(child: _ActionButton(
+                        color: colorScheme.primary, 
+                        icon: Icons.call_rounded, 
+                        label: 'Llamar', onTap: _call)),
                       const SizedBox(width: 6),
-                      Expanded(child: _ActionButton(color: const Color(0xFF43A047), icon: Icons.near_me_rounded, label: 'Ruta', onTap: _route)),
+                      Expanded(child: _ActionButton(color: const Color(0xFF0055A5), icon: Icons.near_me_rounded, label: 'Ruta', onTap: _route)),
                       const SizedBox(width: 6),
-                      Expanded(child: _ActionButton(color: const Color(0xFF1E88E5), icon: Icons.share_rounded, label: 'Compartir', onTap: _share)),
+                      Expanded(child: _ActionButton(color: const Color(0xFF003366), icon: Icons.share_rounded, label: 'Compartir', onTap: _share)),
                     ],
                   ),
                   const SizedBox(height: 12),

@@ -152,15 +152,15 @@ class _HomeScreenState extends State<HomeScreen> {
           'Quito Turístico',
           style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
-        flexibleSpace: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xFF7C4DFF), Color(0xFFB388FF)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+          flexibleSpace: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: [Color.fromARGB(255, 9, 56, 95), Colors.blueAccent],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
             ),
           ),
-        ),
       ),
       body: Column(
         children: [
